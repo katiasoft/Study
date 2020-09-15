@@ -149,3 +149,10 @@
 
 ### 20. 베이지안 분석(Bayrsian VAR)아란?
 + 자료에 대한 사전정보를 이용하여 일반적인 VAR모형의 동태적 계수및 상수항에 대한 적절한 제약을 통해 이상에서 제거한 차원의 문제를 우회할 수 있으며, 무엇보다도 안정적인 데이터를 대상으로 분석해야한다는 제약으로 부터 자유로운 장점이 있다.
+
+[참고 블로그](https://rosypark.tistory.com/51)<br>
+[참고 영상(강의 1편)](https://www.youtube.com/watch?v=d3eU9kEjICc&t=457s)<br>
+[참고 영상(강의 2편)](https://www.youtube.com/watch?v=bt6dSJDPC0A&t=1s)<br>
+[참고 영상(강의 3편)](https://www.youtube.com/watch?v=3r0D0OH2-IU&t=100s)<br>
+[참고 논문(VAR)](http://kostat.go.kr/attach/journal/2-1-2.PDF)<br>
+[참고 논문((베니지안 VAR관련 프로젝트논문))](http://kportea.or.kr/filedown/Treatise/2014/07.%20%EA%B9%80%ED%98%84%EC%84%9D,%20%EC%9E%A5%EB%AA%85%ED%9D%AC-Bayesian%20VAR%EB%A5%BC%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20%ED%95%B4%EC%9A%B4%EA%B2%BD%EA%B8%B0,%20%ED%99%98%EC%9C%A8%20%EA%B7%B8%EB%A6%AC%EA%B3%A0%20%EC%82%B0%EC%97%85%EC%83%9D%EC%82%B0%20%EA%B0%84%EC%9D%98%20%EB%8F%99%ED%83%9C%EC%A0%81%20%EC%83%81%EA%B4%80%EB%B6%84%EC%84%9D.pdf)
