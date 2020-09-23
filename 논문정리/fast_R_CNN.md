@@ -74,7 +74,7 @@ Fast R-CNN에서 적용된 1개의 피라미드 SPP로 고정된 크기의 Featu
 따라서 더이상 2000번의 CNN연산이 필요하지 않고 1번의 CNN연산으로 속도를 대폭 높일 수 있었다.
 
 ### ☞ 1-stage : Trainable
-* R-CNN의 두번째 문제였던Multi-stage pipeline으로 인해 3가지 모델로 따로 학습해야한다는 점이다.
+* R-CNN의 두번째 문제였던 Multi-stage pipeline으로 인해 3가지 모델로 따로 학습해야한다는 점이다.
 * R-CNN에서는 CNN을 통과한 후 각각 서로다른 모델인 SVM(Classification), bounding box regression(localization)안으로 들어가 forword 됬기 때문에 연산이 공유 되지 않았다.
 * bounding box regression은 CNN을 거치기 전의 regional 데이터가 input으로 들어가고 SVM은 CNN을 거친 후의 Feature map이 input으로 들어가기에 연산이 겹치지 않는다.
 
