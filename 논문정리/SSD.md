@@ -2,7 +2,7 @@
 
 ## Abstract.
 
-단일의 Deep Neural Network로 object detection을 구현했다. SS라고 불리는 접근법은 다양한 크기와 비율을 가진 default box들로 각 feature map에서 bounding box를 뽑아낸다. predict를 할 때는 네트워크가 각 default box가 각각의 사물 카테고리에 속하는 score와 사물모양에 잘 맞는 box를 만들어 낸다. 게다가, 다양한 크기를 가지는 사물을 매끄럽게 변환한 다양한 feature map들을 결합하여 predict에 사용한다. 쉽게보면 object proposal들을 사용하는 방법들과 다르다. 그이유는 proposal을 생성하는 부분과 pixel 또는 feature를 리샘플링하는 부분이 제거했으며 모든 계산을 단일 네트워크에서 진행한다. 단일 네트워크로 학습을 쉽게 할 수 있고 detection에 필요한 요소를 통합했다.
+단일의 Deep Neural Network로 object detection을 구현했다. SSD라고 불리는 접근법은 다양한 크기와 비율을 가진 default box들로 각 feature map에서 bounding box를 뽑아낸다. predict를 할 때는 네트워크가 각 default box가 각각의 사물 카테고리에 속하는 score와 사물모양에 잘 맞는 box를 만들어 낸다. 게다가, 다양한 크기를 가지는 사물을 매끄럽게 변환한 다양한 feature map들을 결합하여 predict에 사용한다. 쉽게보면 object proposal들을 사용하는 방법들과 다르다. 그이유는 proposal을 생성하는 부분과 pixel 또는 feature를 리샘플링하는 부분이 제거했으며 모든 계산을 단일 네트워크에서 진행한다. 단일 네트워크로 학습을 쉽게 할 수 있고 detection에 필요한 요소를 통합했다.
 
 결과로는 VOC2007에서 74.3%의 정확도(mAP)와 59fps가 나왔다고 한다. 비교하자면 최신 Faster R-CNN모델보다 뛰어난 성능이다.
 
